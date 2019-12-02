@@ -1,0 +1,20 @@
+{
+  "name": "openfing-downloader-gui",
+  "version": "0.1.0",
+  "description": "A personal and simple tool for downloading complete courses from openfing.",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Noxware",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "libui-node": "^0.2.1",
+    "progress-stream": "^2.0.0"
+  },
+  "bin": "./main.js"
+}
